@@ -140,6 +140,7 @@ function showGame() {
 function restarty() {
     console.log('in restarty');
     btn.removeEventListener('click', showModal);
+    document.querySelector('.reaction img').style.visibility = 'hidden';
     modal.style.visibility = 'hidden';
     faces.style.display = '';
     faces.style.visibility = 'visible';
@@ -163,5 +164,4 @@ images.forEach(img => {
 
 /* prevent images matrix form being displayed on initial load */
 document.getElementById('match-faces').style.display = 'none';
-
 
