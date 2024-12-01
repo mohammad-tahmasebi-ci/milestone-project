@@ -73,7 +73,9 @@ a {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 35px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 10px;
  }
  /* configure introduction text block end */
  /* configure introduction paragraph begin */
@@ -97,24 +99,35 @@ a {
     border-radius: 4px;
     background-color: blanchedalmond; 
     color: black;
+    margin-bottom: 2px;
  }
 /* configure carousel images size begin */
  .carousel-img {
-    width: 50vw;
-    height: 70vw;
+    width: 25vw;
+    height: 35vw;
     object-fit: cover;
  }
- /* configure carousel images size end */
- /* configure play button end */
- /* configure carousel display begin */
+/* configure carousel images size end */
+/* configure play button end */
+/* configure carousel display begin */
  .show-carousel {
   display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
  }
- /* configure carousel display end */
+/* configure carousel display end */
+/* adjust as screen size increases begin */
+ @media screen and (min-width: 800px) {
+  .text {
+    margin-bottom: 2px;
+  }
 
+  .text p{
+    line-height: 1.5vw;
+  }
+ }
+/* adjust as screen size increases end */
 /** configure introduction section end ------------------------------------**/
 
 /** configure game section settings begin  --------------------------------**/
