@@ -66,7 +66,7 @@ rearranged, and the new screen is presented to the user to continue with the gam
 and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
-![introduction area](./assets/images/introduction-desing.png)
+<p align="center"><img src="assets/images/introduction-design.png" alt="introduction area design" width="800px" height="500px"></p>
 
 ### Design Actual
 
