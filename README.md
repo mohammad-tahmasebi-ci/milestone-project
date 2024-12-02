@@ -128,9 +128,9 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Validation
 
-<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="400px" height="400px"></p>
-<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="400px" height="400px"></p>
-<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="600px" height="600px"></p>
+<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="600px" height="600px"></p>
+<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="600px" height="600px"></p>
 
 ### Manual Testing
 
