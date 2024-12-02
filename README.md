@@ -84,7 +84,8 @@ and a short, Goodbye, message is presented to thank the user for playing.
 - Am I Responsive
 - Lighthouse
 - W3C HTML/CSS validator
-- W3C Markup Validator
+- W3C Markup validator
+- Javascript validator
 
 ## Features
 
@@ -99,7 +100,7 @@ and a short, Goodbye, message is presented to thank the user for playing.
 - navbar contains a single menu option to return the user to the introduction area
 - introduction area describes the purpose of the game verbally, as well as visually
 - a reaction is caused only when the designated areas are clicked
-- a shake effect is caused when selected images do not matched
+- a shake effect is caused when selected images do not match
 - relevant emoji is displayed upon a successful/failed selection
 
 ### Future Features
