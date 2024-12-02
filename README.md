@@ -66,6 +66,7 @@ rearranged, and the new screen is presented to the user to continue with the gam
 and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
+![introduction area]([https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small](https://github.com/mohammad-tahmasebi-ci/milestone-project/assets/images/introduction-desing.png)
 
 ### Design Actual
 
