@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<p align="center"><img src="assets/images/am-i-responsive.png" alt="am i responsive check" width="800px" height="500px"></p>
 
 # Memory Game
 
@@ -29,6 +29,7 @@ If the user chooses not to play again, the game stops and all matched images rem
 
     * HTML Validation
     * CSS Validation
+    * JS Validation
     * Manual Testing
     * Functional Testing
     * Website Performance Test
@@ -67,17 +68,17 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
 
-<p align="center"><img src="assets/images/introduction-design.png" alt="introduction area design" width="800px" height="500px"></p>
-<p align="center"><img src="assets/images/game-area-design.png" alt="game area design" width="800px" height="500px"></p>
-<p align="center"><img src="assets/images/goodbye-design.png" alt="goodbye area design" width="800px" height="500px"></p>
+<p align="center"><img src="assets/images/introduction-design.png" alt="introduction area design" width="400px" height="200px"></p>
+<p align="center"><img src="assets/images/game-area-design.png" alt="game area design" width="400px" height="200px"></p>
+<p align="center"><img src="assets/images/goodbye-design.png" alt="goodbye area design" width="400px" height="200px"></p>
 
 ### Design Actual
 
 <p align="center"><img src="assets/images/header.png" alt="navbar" width="1200px" height="70px"></p>
-<p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="70px"></p>
-<p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="800px" height="800px"></p>
-<p align="center"><img src="assets/images/animation3.png" alt="introduction area 2" width="800px" height="800px"></p>
-<p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="800px" height="800px"></p>
+<p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="50px"></p>
+<p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/animation3.png" alt="introduction area 2" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="400px" height="400px"></p>
 
 ## Technologies Used
 
@@ -101,6 +102,7 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 - simple, uncluttered, one page site
 - no need to navigate between pages
+- no need to scroll
 - clear introduction
 - intuitive game
 - responsive on all device sizes
@@ -117,5 +119,23 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 - extend number, and type, of images
 - add actual questions corresponding to specific images
+- add different levels of complexity
 - add a timer such that limits the user's selection time
 
+## User Stories
+
+## Testing
+
+### Validation
+
+<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="400px" height="400px"></p>
+
+### Manual Testing
+
+The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All available device settings were tested one at a time by:
+- Load pages on Firefox, MS Edge, Google Chrome
+- Taking advantage of the development tool on the above platforms to test different viewports
+- Accessing external social sites
+- Testing the single menu option
