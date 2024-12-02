@@ -139,3 +139,11 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 - Taking advantage of the development tool on the above platforms to test different viewports
 - Accessing external social sites
 - Testing the single menu option
+
+### Functional Testing
+
+
+
+### Lighthouse Report
+
+<p align="center"><img src="assets/images/lighthouse-report.png" alt="lighthouse report" width="300px" height="300px"></p>
