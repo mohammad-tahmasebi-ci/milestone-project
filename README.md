@@ -86,6 +86,7 @@ and a short, Goodbye, message is presented to thank the user for playing.
 - CSS
 - Bootstrap
 - Javascript
+- JQuery
 
 ## Frameworks, Libraries, Programs Used
 
@@ -114,15 +115,18 @@ and a short, Goodbye, message is presented to thank the user for playing.
 - a reaction is caused only when the designated areas are clicked
 - a shake effect is caused when selected images do not match
 - relevant emoji is displayed upon a successful/failed selection
+- access to the four most popular social sites via the footer
 
 ### Future Features
 
 - extend number, and type, of images
 - add actual questions corresponding to specific images
 - add different levels of complexity
-- add a timer such that limits the user's selection time
+- add a timer such that limits the user's selection/total time
 
 ## User Stories
+
+
 
 ## Testing
 
@@ -135,7 +139,7 @@ and a short, Goodbye, message is presented to thank the user for playing.
 ### Manual Testing
 
 The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All available device settings were tested one at a time by:
-- Load pages on Firefox, MS Edge, Google Chrome
+- Load the page on Firefox, MS Edge, Google Chrome
 - Taking advantage of the development tool on the above platforms to test different viewports
 - Accessing external social sites
 - Testing the single menu option
