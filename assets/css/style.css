@@ -142,7 +142,6 @@ a {
 .row {
 	max-width: 580px;
 	max-height: 580px;
-
 }
 
 .col {
@@ -202,6 +201,7 @@ a {
   transform: rotateY(180deg);
 }
 
+/* configure display for specific screen sizes begin */
 @media screen and (max-width: 295px) {
   #match-faces {
     display: block;
@@ -209,6 +209,17 @@ a {
     margin-top: 10px;
   }
 }
+
+@media screen and (max-height: 720px) {
+  .row {
+    max-width: 340px;
+    max-height: 340px;
+  }
+  .col {
+    max-width: 20%;
+  }
+}
+/* configure display for specific screen sizes end */
 /* configure reveal selected image end */
 
 /** configure game section settings end -----------------------------------**/
