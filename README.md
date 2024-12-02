@@ -132,9 +132,9 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Validation
 
-<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="600px" height="600px"></p>
-<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="600px" height="600px"></p>
-<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="600px" height="600px"></p>
+<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="900px" height="900px"></p>
+<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="900px" height="900px"></p>
+<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="900px" height="900px"></p>
 
 ### Manual Testing
 
@@ -146,7 +146,7 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 
 ### Functional Testing
 
-
+<p align="center"><img src="assets/images/functional-tests.png" alt="functional tests result" width="700px" height="1000px"></p>
 
 ### Lighthouse Report
 
