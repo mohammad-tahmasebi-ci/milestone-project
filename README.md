@@ -66,9 +66,18 @@ rearranged, and the new screen is presented to the user to continue with the gam
 and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
+
 <p align="center"><img src="assets/images/introduction-design.png" alt="introduction area design" width="800px" height="500px"></p>
+<p align="center"><img src="assets/images/game-area-design.png" alt="game area design" width="800px" height="500px"></p>
+<p align="center"><img src="assets/images/goodbye-design.png" alt="goodbye area design" width="800px" height="500px"></p>
 
 ### Design Actual
+
+<p align="center"><img src="assets/images/header.png" alt="navbar" width="1200px" height="70px"></p>
+<p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="70px"></p>
+<p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="800px" height="800px"></p>
+<p align="center"><img src="assets/images/animation3.png" alt="introduction area 2" width="800px" height="800px"></p>
+<p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="800px" height="800px"></p>
 
 ## Technologies Used
 
