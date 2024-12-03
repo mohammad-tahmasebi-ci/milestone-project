@@ -61,8 +61,8 @@ On page load the introduction area, is displayed.  The introduction area provide
 Below the description, a carousel of images is displayed that clearly demonstrates the aim of the game.  
 A Play button, is provided to enable the user to have a go at playing the game.
 Once the Play button is clicked, the introduction area is hidden, and the game area is presented to the user.  After matching
-all hidden images, a message is presented to ask whether the user would like to play again.  If the answer is yes, then the images 
-are shuffeled, rearranged, and the new screen is presented to the user to continue with the game.  If the answer is no, the game 
+all hidden images, a message is presented to ask whether the user would like to play again.  If the answer is yes, the images 
+are shuffled, rearranged, and the new screen is presented to the user to continue with the game.  If the answer is no, the game 
 area is hidden and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
@@ -91,7 +91,7 @@ area is hidden and a short, Goodbye, message is presented to thank the user for 
 
 - Github
 - Flexbox
-- Fontawsome
+- Fontawesome
 - Am I Responsive
 - Lighthouse
 - W3C HTML/CSS validator
@@ -138,12 +138,12 @@ As a user I'd like to play an entertaining online game that:
 User story result:
 
 1) game area has a matrix of hidden images displayed clearly and consistently
-2) welcome page provides clear instruction
+2) welcome page provides clear instruction on the game's objectives
 3) welcome page provides a demonstration of different stages of the game
 4) two, and only two, images can be revealed for matching purposes; matched images stay uncovered and the rest will have to be matched
-5) only 16 images are provided in order to keep the paly time to a short period
+5) only 16 images are provided in order to keep the play time to a short period
 6) once all images are matched, a message is displayed giving the user the opportunity to replay the game
-7) clicking on the Home menu option, covered images in the game area, and social sites' icons will result in an action
+7) clicking only on the Home menu option, covered images in the game area, and social sites' icons will result in an action
 
 ## Testing
 
@@ -158,7 +158,7 @@ User story result:
 The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All available device settings were tested one at a time by:
 - Load the page on Firefox, MS Edge, Google Chrome
 - Taking advantage of the development tool on the above platforms to test different viewports
-- Accessing external social sites
+- Accessing external social sites provided on the footer
 - Testing the single menu option
 
 ### Functional Testing
@@ -171,7 +171,7 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 
 ### Issues Encountered
 
-Introduction, Game, and Goodbye areas where developed separately and when combined shome CSS settings clashes occured.  These were
+Introduction, Game, and Goodbye areas where developed separately and when combined some CSS settings clashes occured.  These were
 resolved using the inspect functionality of the browser's developer tool.
 Logic bugs occured in the JS shuffleCards, changeImage, matchedFaces, and displayReaction functions which were resolved by using
 the console.log functionality and addressing the cause.
