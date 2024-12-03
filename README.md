@@ -45,26 +45,25 @@ If the user chooses not to play again, the game stops and all matched images rem
 
 ## Design Idea
 
-Wireframes are created using Word software.  Font family used: Arial, Helvetica, sans-serif.
+Wireframes are created using the MS Word software.
 All content was written by the developer.
 Design is broken into the following main sections:
 
 	- Header
-	- Introduction
+	- Introduction area
 	- Game area
 	- Goodbye area
 	- Footer
 
 All above sections are included on one page and as such a minimal navbar is provided to return the user to the introduction
 screen.  
-On page load, below the header, the introduction area, is displayed.  
-The introduction area provides a brief description of the game's objective.  Below the description, a carousel of images is
-displayed that clearly demonstrates the aim of the game.  A Play button, is provided to enable the user to have a go at playing
-the game.
+On page load the introduction area, is displayed.  The introduction area provides a brief description of the game's objective.  
+Below the description, a carousel of images is displayed that clearly demonstrates the aim of the game.  
+A Play button, is provided to enable the user to have a go at playing the game.
 Once the Play button is clicked, the introduction area is hidden, and the game area is presented to the user.  After matching
-all hidden images, a message is presented to ask the user to play again.  If the answer is yes, then the images are shuffeled,
-rearranged, and the new screen is presented to the user to continue with the game.  If the answer is no, the game area is hidden
-and a short, Goodbye, message is presented to thank the user for playing.
+all hidden images, a message is presented to ask whether the user would like to play again.  If the answer is yes, then the images 
+are shuffeled, rearranged, and the new screen is presented to the user to continue with the game.  If the answer is no, the game 
+area is hidden and a short, Goodbye, message is presented to thank the user for playing.
 
 ### Design Wireframes
 
@@ -212,6 +211,7 @@ Local Clone
 Original idea for the game was from the https://www.codingnepalweb.com/build-memory-card-game-html-javascript site.
 Navbar logo was from the www-memozor-com site.
 Reaction emojis were from the clipart-library-com site.
+Social sites' icons were from the FontAwesome site.
 Thanks to my mentor, Mitko Bachvarov, for providing helpful suggestions, feedback, and links to different guides, to assist me with this project.
 Thanks, also, to Miguel Ortega Logorreta, learning assistant, for the advice and guidance offered to assist with the project.
 Code Institute for the educational materials.
