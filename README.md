@@ -3,10 +3,10 @@
 # Memory Game
 
 The game is about uncovering faces of famous actors hidden under a question mark.  The user will uncover two images, by clicking on
-each, and if reveal the hidden images.  If the images belong to the same actor, then they will remain unhidden.  If the images do not
+each and reveal the hidden images.  If the images belong to the same actor, they will remain unhidden.  If the images do not
 belong to the same actor, they will be covered again and the user will have to make another guess and reveal other covered images.
 The process continues until all images are matched correctly.  At this time, the user will be offered another chance to play the
-game again.  If the user chooses to play again, images are shuffeled and the process of choosing matching images is repeated.
+game again.  If the user chooses to play again, images are shuffled and the process of choosing matching images is repeated.
 If the user chooses not to play again, the game stops and all matched images remain uncovered.
 
 # Table of Contents 
@@ -174,8 +174,8 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 
 Introduction, Game, and Goodbye areas where developed separately and when combined shome CSS settings clashes occured.  These were
 resolved using the inspect functionality of the browser's developer tool.
-Logic bugs occured in the JS shuffelCards, changeImage, matchedFaces, and displayReaction functions which were resolved by using
-the console.log functionality.
+Logic bugs occured in the JS shuffleCards, changeImage, matchedFaces, and displayReaction functions which were resolved by using
+the console.log functionality and addressing the cause.
 The modal message, enabling replay of the game, loads only once.  This issue is yet to be resolved.
 
 ## Deployment
