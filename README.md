@@ -77,7 +77,7 @@ and a short, Goodbye, message is presented to thank the user for playing.
 <p align="center"><img src="assets/images/header.png" alt="navbar" width="1200px" height="70px"></p>
 <p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="50px"></p>
 <p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="400px" height="400px"></p>
-<p align="center"><img src="assets/images/animation3.png" alt="introduction area 2" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/animation4.png" alt="introduction area 2" width="400px" height="400px"></p>
 <p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="400px" height="400px"></p>
 
 ## Technologies Used
@@ -172,4 +172,8 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 
 ### Issues Encountered
 
-
+Introduction, Game, and Goodbye areas where developed separately and when combined shome CSS settings clashes occured.  These were
+resolved using the inspect functionality of the browser's developer tool.
+Logic bugs occured in the JS shuffelCards, changeImage, matchedFaces, and displayReaction functions which were resolved by using
+the console.log functionality.
+The modal message, enabling replay of the game, loads only once.  This issue is yet to be resolved.
