@@ -126,7 +126,25 @@ and a short, Goodbye, message is presented to thank the user for playing.
 
 ## User Stories
 
+As a user I'd like to play an entertaining online game that:
 
+1) has a clean and consistent interface
+2) has clear instructions
+3) has a demonstration section, ideally
+4) behaves as indicated in the instructions
+5) has a relatively short play time
+6) has a feature to replay
+7) has no adverse effect when clicking outside the game area unintentionally
+
+User story result:
+
+1) game area has a matrix of hidden images displayed clearly and consistently
+2) welcome page provides clear instruction
+3) welcome page provides a demonstration of different stages of the game
+4) two, and only two, images can be revealed for matching purposes; matched images stay uncovered and the rest will have to be matched
+5) only 16 images are provided in order to keep the paly time to a short period
+6) once all images are matched, a message is displayed giving the user the opportunity to replay the game
+7) clicking on the Home menu option, covered images in the game area, and social sites' icons will result in an action
 
 ## Testing
 
@@ -151,3 +169,7 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 ### Lighthouse Report
 
 <p align="center"><img src="assets/images/lighthouse-report.png" alt="lighthouse report" width="300px" height="300px"></p>
+
+### Issues Encountered
+
+
