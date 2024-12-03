@@ -207,3 +207,11 @@ Local Clone
 6.	Type git clone and then paste The URL copied in the step 3.
 7.	Press Enter and your local clone will be created.
 
+## Credits and Acknowledgements
+
+Original idea for the game was from the https://www.codingnepalweb.com/build-memory-card-game-html-javascript site.
+Navbar logo was from the www-memozor-com site.
+Reaction emojis were from the clipart-library-com site.
+Thanks to my mentor, Mitko Bachvarov, for providing helpful suggestions, feedback, and links to different guides, to assist me with this project.
+Thanks, also, to Miguel Ortega Logorreta, learning assistant, for the advice and guidance offered to assist with the project.
+Code Institute for the educational materials.
