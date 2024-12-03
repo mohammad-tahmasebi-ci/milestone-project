@@ -55,8 +55,7 @@ Design is broken into the following main sections:
 	- Goodbye area
 	- Footer
 
-All above sections are included on one page and as such a minimal navbar is provided to return the user to the introduction
-screen.  
+All above sections are included on one page, so a minimal navbar is provided to return the user to the introduction screen.  
 On page load the introduction area, is displayed.  The introduction area provides a brief description of the game's objective.  
 Below the description, a carousel of images is displayed that clearly demonstrates the aim of the game.  
 A Play button, is provided to enable the user to have a go at playing the game.
