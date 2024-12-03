@@ -209,9 +209,15 @@ Local Clone
 ## Credits and Acknowledgements
 
 Original idea for the game was from the https://www.codingnepalweb.com/build-memory-card-game-html-javascript site.
+<br />
 Navbar logo was from the www-memozor-com site.
+<br />
 Reaction emojis were from the clipart-library-com site.
+<br />
 Social sites' icons were from the FontAwesome site.
+<br />
 Thanks to my mentor, Mitko Bachvarov, for providing helpful suggestions, feedback, and links to different guides, to assist me with this project.
+<br />
 Thanks, also, to Miguel Ortega Logorreta, learning assistant, for the advice and guidance offered to assist with the project.
+<br />
 Code Institute for the educational materials.
