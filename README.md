@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/images/am-i-responsive.png" alt="am i responsive check" width="800px" height="500px"></p>
+<p align="center"><img src="assets/images/am-i-responsive.png" alt="am i responsive" width="800px" height="500px"></p>
 
 # Memory Game
 
