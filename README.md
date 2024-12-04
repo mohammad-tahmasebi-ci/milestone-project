@@ -16,14 +16,13 @@ If the user chooses not to play again, the game stops and all matched images rem
     * Technologies Used 
     * Frameworks, Libraries, Programs Used
 
-* [User Experience](#user-experience)
-
-    * Features
-
-        * Current Features
-        * Future Enhancements
-
 * [User Stories](#user-stories)
+  
+* [Features](#features)
+  
+    * Current
+    * Future
+
 
 * [Testing](#testing)
 
@@ -34,7 +33,6 @@ If the user chooses not to play again, the game stops and all matched images rem
     * Functional Testing
     * Website Performance Test
     * Issues Encountered
-
 
 * [Deployment](#deployment)
 
@@ -70,14 +68,6 @@ area is hidden and a short, Goodbye, message is presented to thank the user for 
 <p align="center"><img src="assets/images/game-area-design.png" alt="game area design" width="400px" height="200px"></p>
 <p align="center"><img src="assets/images/goodbye-design.png" alt="goodbye area design" width="400px" height="200px"></p>
 
-### Design Actual
-
-<p align="center"><img src="assets/images/header.png" alt="navbar" width="1200px" height="70px"></p>
-<p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="50px"></p>
-<p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="400px" height="400px"></p>
-<p align="center"><img src="assets/images/animation4.png" alt="introduction area 2" width="400px" height="400px"></p>
-<p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="400px" height="400px"></p>
-
 ## Technologies Used
 
 - HTML
@@ -96,31 +86,6 @@ area is hidden and a short, Goodbye, message is presented to thank the user for 
 - W3C HTML/CSS validator
 - W3C Markup validator
 - Javascript validator
-
-## Features
-
-- simple, uncluttered, one page site
-- no need to navigate between pages
-- no need to scroll
-- clear introduction
-- intuitive game
-- responsive on all device sizes
-
-### Current Features
-
-- navbar contains a single menu option to return the user to the introduction area
-- introduction area describes the purpose of the game verbally, as well as visually
-- a reaction is caused only when the designated areas are clicked
-- a shake effect is caused when selected images do not match
-- relevant emoji is displayed upon a successful/failed selection
-- access to the four most popular social sites via the footer
-
-### Future Features
-
-- extend number, and type, of images
-- add actual questions corresponding to specific images
-- add different levels of complexity
-- add a timer such that limits the user's selection/total time
 
 ## User Stories
 
@@ -144,13 +109,43 @@ User story result:
 6) once all images are matched, a message is displayed giving the user the opportunity to replay the game
 7) clicking only on the Home menu option, covered images in the game area, and social sites' icons will result in an action
 
+## Features
+
+### Current Features
+
+- simple, uncluttered, one page site
+- no need to navigate between pages
+- no need to scroll
+- clear introduction
+- intuitive game
+- responsive on all device sizes
+- navbar contains a single menu option to return the user to the introduction area
+- introduction area describes the purpose of the game verbally, as well as visually
+- a reaction is caused only when the designated areas are clicked
+- a shake effect is caused when selected images do not match
+- relevant emoji is displayed upon a successful/failed selection
+- access to the four most popular social sites via the footer
+
+<p align="center"><img src="assets/images/header.png" alt="navbar" width="1200px" height="70px"></p>
+<p align="center"><img src="assets/images/footer.png" alt="footer" width="1300px" height="50px"></p>
+<p align="center"><img src="assets/images/animation1.png" alt="introduction area 1" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/animation4.png" alt="introduction area 2" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/animation6.png" alt="introduction area 3" width="400px" height="400px"></p>
+
+### Future Features
+
+- extend number, and type, of images
+- add actual questions corresponding to specific images
+- add different levels of complexity
+- add a timer such that limits the user's selection/total time
+
 ## Testing
 
 ### Validation
 
-<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="900px" height="900px"></p>
-<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="900px" height="900px"></p>
-<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="900px" height="900px"></p>
+<p align="center"><img src="assets/images/html-validation.png" alt="HTML validation" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/style-validation.png" alt="CSS validation" width="400px" height="400px"></p>
+<p align="center"><img src="assets/images/script-validation.png" alt="JS validation" width="400px" height="400px"></p>
 
 ### Manual Testing
 
@@ -170,11 +165,14 @@ The website was tested manually, using MS Edge, Google Chrome, and Firefox.  All
 
 ### Issues Encountered
 
-Introduction, Game, and Goodbye areas where developed separately and when combined some CSS settings clashes occured.  These were
-resolved using the inspect functionality of the browser's developer tool.
+Introduction, Game, and Goodbye areas where developed separately and when combined some CSS settings clashes occured. 
+E.g. position, and sizing of elements. These were resolved using the inspect functionality of the browser's developer tool.
+<br />
 Logic bugs occured in the JS shuffleCards, changeImage, matchedFaces, and displayReaction functions which were resolved by using
-the console.log functionality and addressing the cause.
-The modal message, enabling replay of the game, loads only once.  This issue is yet to be resolved.
+the console.log functionality and addressing the cause.  E.g. list, arr, containing images to be used did not contain correct number of
+entries resulting in some boxes not displaying any actor's image once clicked on.
+<br />
+The modal message, enabling replay of the game, loaded only once.  This issue was resolved by removing the fade keyword from the modal definition.
 
 ## Deployment
 
@@ -215,7 +213,7 @@ Reaction emojis were from the clipart-library-com site.
 <br />
 Social sites' icons were from the FontAwesome site.
 <br />
-Thanks to my mentor, Mitko Bachvarov, for providing helpful suggestions, feedback, and links to different guides, to assist me with this project.
+Thanks to my mentor, Mitko Bachvarov, for providing helpful suggestions, feedback, and links to different guides to assist with this project.
 <br />
 Thanks, also, to Miguel Ortega Logorreta, learning assistant, for the advice and guidance offered to assist with the project.
 <br />
