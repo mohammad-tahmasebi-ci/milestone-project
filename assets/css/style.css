@@ -27,8 +27,8 @@ line-height: 10px;
 
 /* configure navbar logo begin */
 .navbar-brand img {
-  max-height: 90px;
-  max-width: 90px;
+  height: 90px;
+  width: 90px;
   padding: 2px;
   margin: 0 auto;
 }
@@ -162,6 +162,11 @@ a {
   visibility: hidden;
 }
 
+.reaction img {
+  width: 85px;
+  height: 92px;
+}
+
 .reaction p {
   max-width: 5vw;
   font-weight: 500;
@@ -200,7 +205,6 @@ a {
 .image.flip img {
   transform: rotateY(180deg);
 }
-
 /* configure display for specific screen sizes begin */
 @media screen and (max-width: 295px) {
   #match-faces {
