@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /* configure general variables */
 const totalImages = 8;
 let cardOne, cardTwo = '';
@@ -22,32 +23,23 @@ const modal = document.getElementById('myModal');
 const faces = document.getElementById('match-faces');
 const btn = document.getElementById('modal-launch');
 const goodbye = document.getElementById('goodbye');
-
-/* configure function to launch the modal message */
-function showModal() {
-    console.log('in showModal');
-    modal.style.visibility = 'visible';  
-}
+const reactionImage = document.querySelector('.reaction img');
+const reactionP = document.querySelector('.reaction p');
 
 /* configure function to determine matching selected images */
 function matchedImages(img1, img2) {
-    console.log('in matchedImages');
     if (img1 === img2) {
         matched++;
         displayReaction('Y', matched);
         if (matched == totalImages) {
-            console.log('all matched');
             displayReaction('C', matched);
-            console.log('btn.addEventListener');
-            btn.addEventListener('click', showModal);
-            setTimeout(btn.click(), 2000); 
-            console.log('after setTimeout');
+            btn.click();
         }
-        console.log('not all matched');
         cardOne.removeEventListener('click', changeImage);
         cardTwo.removeEventListener('click', changeImage);
         cardOne = cardTwo = '';
-        return disableDeck = false;
+        disableDeck = false;
+        return disableDeck;
     }
   
     displayReaction('N', matched);
@@ -62,35 +54,29 @@ function matchedImages(img1, img2) {
         cardOne.src = cardTwo.src = defultImage;
         cardOne = cardTwo = '';
         cardOneImg = cardTwoImg = '';
-        disableDeck = false
+        disableDeck = false;
     }, 1200);
-    console.log('leaving matchedImages');
 }
 
 /* configure function to rebuild images array */
 function shuffleCards() {
-    console.log('in shuffleCards');
     matched = 0;
     disableDeck = false;
     cardOne = cardTwo = "";
     imgTag = [];
-    let reactionImage = document.querySelector('.reaction').querySelector('img');
     reactionImage.src = '';
-    document.querySelector('.reaction p').innerHTML = '';
+    reactionP.innerHTML = '';
     arr.sort(() => Math.random() > 0.5 ? 1 : -1);
-    console.log('before adding button eventListeners');
     images.forEach((img, i) => {
         img.classList.remove("flip");
         img.src = defultImage;
         imgTag.push(`${arr[i]}`);
         img.addEventListener("click", changeImage);
     });
-    console.log('after adding buttong eventListeners');
 }
 
 /* configure function to assign image to each selection */
 const changeImage = (event) => {
-    console.log('in changeImage');
     let isClicked = event.srcElement;
     if (cardOne !== isClicked && !disableDeck) {
         isClicked.classList.add('flip');
@@ -106,25 +92,23 @@ const changeImage = (event) => {
         cardTwo.src = cardTwoImg;  
         matchedImages(cardOneImg, cardTwoImg);
     }
-    console.log('leaving changeImage');
-} 
+};
 
 /* configure function to dispaly reaction to each selection */
 function displayReaction(reaction, matched) {
-    document.querySelector('.reaction img').style.visibility = 'visible';
-    document.querySelector('.reaction p').style.visibility = 'visible';
+    reactionImage.style.display = '';
+    reactionImage.style.visibility = 'visible';
+    reactionP.style.display = '';
+    reactionP.style.visibility = 'visible';
     if (reaction ==='C') {
-        document.querySelector('.reaction p').innerHTML = '';
-        let reactionImage = document.querySelector('.reaction').querySelector('img');
+        reactionP.innerHTML = '';
         reactionImage.src = 'assets/images/clapping-2-2040755-clipart-library-com.jpg';
     } else if (reaction === 'Y') {
-        let reactionImage = document.querySelector('.reaction').querySelector('img');
         reactionImage.src = 'assets/images/happy-face.png';
-        document.querySelector('.reaction p').innerHTML = `Only ${totalImages - matched} left`;
+        reactionP.innerHTML = `Only ${totalImages - matched} left`;
     } else {
-        let reactionImage = document.querySelector('.reaction').querySelector('img');
         reactionImage.src = 'assets/images/sad-face.png';
-        document.querySelector('.reaction p').innerHTML = 'Try again';
+        reactionP.innerHTML = 'Try again';
     }
 }
 
@@ -138,10 +122,8 @@ function showGame() {
 
 /* configure function to launch on modal Yes selection */
 function restarty() {
-    console.log('in restarty');
-    btn.removeEventListener('click', showModal);
-    document.querySelector('.reaction img').style.visibility = 'hidden';
-    modal.style.visibility = 'hidden';
+    reactionImage.style.display = 'none';
+    modal.style.display = 'none';
     faces.style.display = '';
     faces.style.visibility = 'visible';
     shuffleCards();
@@ -149,7 +131,6 @@ function restarty() {
 
 /* configure function to launch on modal No selection */
 function restartn() {
-    btn.removeEventListener('click', showModal);
     modal.style.display = 'none';
     faces.style.display = 'none';
     goodbye.style.display = '';
@@ -164,4 +145,5 @@ images.forEach(img => {
 
 /* prevent images matrix form being displayed on initial load */
 document.getElementById('match-faces').style.display = 'none';
+
 
