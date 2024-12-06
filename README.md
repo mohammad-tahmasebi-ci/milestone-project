@@ -172,7 +172,12 @@ Logic bugs occured in the JS shuffleCards, changeImage, matchedFaces, and displa
 the console.log functionality and addressing the cause.  E.g. list, arr, containing images to be used did not contain correct number of
 entries resulting in some boxes not displaying any actor's image once clicked on.
 <br />
-The modal message, enabling replay of the game, loaded only once.  This issue was resolved by removing the fade keyword from the modal definition.
+The modal message, enabling replay of the game, loaded only once.  This issue was resolved by removing the fade keyword from the modal definition
+in the index.html.
+Another issue was preventing closure of the modal by clicking outside the box area which was resolved by using the data-bs-backdrop attribute and
+having it set to static in the index.html; i.e. data-bs-backdrop='static'.
+Final issue encountered with the modal, was having the screen locked, inaccessible, after closing the modal.  This was resolve by having the 
+z-index attribute set to -1 in the CSS.
 
 ## Deployment
 
